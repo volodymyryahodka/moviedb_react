@@ -1,0 +1,16 @@
+.genres {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.genresColor {
+	background: linear-gradient(#0048ff, #fa0000);
+	height: 100vh;
+}
+
+.genres div {
+	width: 25%;
+	box-sizing: border-box;
+	margin: 30px 0;
+}

@@ -1,0 +1,21 @@
+.header {
+	background-color: black;
+	color: white;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header a {
+	font-size: 25px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px;
+}
+
+.header a[class='active'] {
+	text-decoration: underline;
+	color: cyan;
+}
